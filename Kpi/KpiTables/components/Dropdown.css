@@ -1,0 +1,17 @@
+    .dropdownbox{
+        display: flex;
+       margin-left: 5px;
+    }
+    .dropdown{
+      margin:10px
+    }
+
+    @media only screen and (max-width: 767px) {
+        /* Styles for smaller screens, like mobile devices */
+        .dropdownbox {
+            display: grid;
+            margin: 25px;
+        }
+      
+        /* Additional mobile-specific styles go here */
+      }
